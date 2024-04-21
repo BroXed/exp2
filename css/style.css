@@ -588,7 +588,7 @@ h2 {
     display: inline-flex;
     fill: #D4A68C;
     font-family: "Bellefair", serif;
-    font-size: 3vw;
+    font-size: 3.2vw;
     height: 7vh;
     width: 30vw;
     outline: 0;
@@ -644,33 +644,7 @@ h2 {
       
 
 
-      .mainButtons {
-        align-items: center;
-        background-color: #fff;
-        border: 1px solid #787878;
-        box-sizing: border-box;
-        color: #000;
-        cursor: pointer;
-        display: inline-flex;
-        fill: #D4A68C;
-        font-family: "Bellefair", serif;
-        font-size: 1.5rem;
-        font-weight: 100;
-        height: 7vh;
-        width: 12vw;
-        justify-content: center;
-        letter-spacing: -.8px;
-        line-height: 24px;
-        min-width: 170px;
-        outline: 0;
-        padding: 0 17px;
-        text-align: center;
-        text-decoration: none;
-        transition: all .3s;
-        user-select: none;
-        -webkit-user-select: none;
-        touch-action: manipulation;
-      
+
       
       }
 }
