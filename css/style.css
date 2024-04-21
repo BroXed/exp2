@@ -19,7 +19,7 @@ footer {
     display: flex;
     justify-content: end;
     align-items: center;
-    margin-right: 50px;
+    padding-right: 50px;
     color: #c2c2c2;
     font-size: 0.7rem;
 }
@@ -381,15 +381,19 @@ max-width: auto;
     body {
         display: flex;
         flex-direction: column;
-        gap: 8vh;
         margin: 0px;
         bottom: 0px;
     }
 
+    .logo {
     
+        max-height:25vh;
+        max-width: auto;
+        
+        }
 
     header {
-        height: 8vh;
+        height: 12vh;
         background-color: white;
     }
 
@@ -398,6 +402,7 @@ max-width: auto;
         padding: 20px;
         display: flex;
         flex-direction: column;
+
     }
     .language {
         display: none;
@@ -411,7 +416,7 @@ max-width: auto;
     .portret-strony-głównej {
    
         padding-top: 1px;
-        max-height: 92vh;
+        max-height: 75vh;
         max-width: 100vh;
     }
     .logo-navbar {
@@ -432,9 +437,11 @@ max-width: auto;
         grid-column-gap: 1vw;
         margin: 0px;
         padding: 0px;
-        
-       
-        
+    }
+    li {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
     }
 
     .container-subpage {
@@ -480,9 +487,7 @@ max-width: auto;
         z-index: -1;
 
     }
-    .buttons-subpage {
-    
-    }
+
     .mainText {
         text-align: center;
     }
@@ -570,8 +575,8 @@ h2 {
     grid-row-start:3;
     grid-row-end: 4;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    padding: 0px;
    
 }
 .public-buttons {  
@@ -748,5 +753,6 @@ h2 {
            
           }
 }
+
 
 
