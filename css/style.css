@@ -382,8 +382,8 @@ max-width: auto;
     body {
         display: flex;
         flex-direction: column;
-        margin: 0px;
-        bottom: 0px;
+        margin: 30px;
+        margin-bottom: 0px;
     }
 
     .logo {
