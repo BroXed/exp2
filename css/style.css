@@ -570,24 +570,38 @@ h2 {
 
 
 .buttons {
-    grid-column-start:1;
-    grid-column-end:3;
-    grid-row-start:3;
-    grid-row-end: 4;
     display: flex;
     align-items: center;
+    gap: 10px;
     padding: 0px;
    
 }
-.public-buttons {  
+
+
+.mainButtons {
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #787878;
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    display: inline-flex;
+    fill: #D4A68C;
+    font-family: "Bellefair", serif;
+    font-size: 1.4em;
+    height: 7vh;
+    width: 30vw;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
     text-decoration: none;
-    border: 2px solid rgb(196, 196, 196);
-  background-color: white;
-  color: black;
-  padding: 14px 14px;
-  font-size: xx-large;
-  cursor: pointer; 
-}
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  
+  
+  }
 
 }
 @media (max-width:1430px) and (orientation: landscape) {
@@ -753,6 +767,7 @@ h2 {
            
           }
 }
+
 
 
 
