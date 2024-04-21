@@ -290,6 +290,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 15px;
    
 }
 .public-buttons {  
@@ -342,7 +343,7 @@ max-width: auto;
     display: inline-flex;
     fill: #D4A68C;
     font-family: "Bellefair", serif;
-    font-size: 3vw;
+    font-size: 1.5rem;
     font-weight: 100;
     height: 7vh;
     width: 12vw;
