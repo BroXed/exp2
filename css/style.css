@@ -593,7 +593,7 @@ h2 {
     height: 7vh;
     width: 30vw;
     outline: 0;
-    padding: 0 17px;
+    padding: 0px;
     text-align: center;
     text-decoration: none;
     transition: all .3s;
